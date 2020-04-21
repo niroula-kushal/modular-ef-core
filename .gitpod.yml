@@ -1,0 +1,5 @@
+tasks:
+  - init: dotnet tool install --global dotnet-ef
+    command: cd ModularEf && dotnet ef database update && dotnet run
+image:
+  file: .gitpod.Dockerfile
