@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Base
+namespace ModularEf.Data
 {
     public class BaseContext : IdentityDbContext<IdentityUser>
     {
