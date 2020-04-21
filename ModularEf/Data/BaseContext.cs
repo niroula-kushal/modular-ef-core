@@ -9,6 +9,8 @@ namespace ModularEf.Data
     {
         public BaseContext(DbContextOptions<BaseContext> options) : base(options)
         {
+            
+            
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
